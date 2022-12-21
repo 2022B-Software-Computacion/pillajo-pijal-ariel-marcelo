@@ -1,0 +1,6 @@
+Autor=Jorge Bastidas, fechaNacimiento=Sun Dec 18 23:28:56 ECT 2022, numPublicaciones=10
+	 0 idLibro='5', titulo='''''Las Marianitas''''', fechaPublicacion=Sun Dec 18 23:28:56 ECT 2022, bestSeller=true, valor=3.5, numeroDeCopias=100
+	 1 idLibro='5', titulo='''''Las Marianitas''''', fechaPublicacion=Sun Dec 18 23:28:56 ECT 2022, bestSeller=true, valor=3.5, numeroDeCopias=100
+Autor=Jorge Bs, fechaNacimiento=Sun Dec 18 23:28:56 ECT 2022, numPublicaciones=10
+	 0 idLibro='5', titulo='''''Las Marianitas2''''', fechaPublicacion=Sun Dec 18 23:28:56 ECT 2022, bestSeller=true, valor=3.5, numeroDeCopias=100
+

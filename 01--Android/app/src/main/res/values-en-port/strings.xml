@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hola_mundo"> english portrait </string>
+    <color name="color">#FF6200EE</color>
+</resources>
