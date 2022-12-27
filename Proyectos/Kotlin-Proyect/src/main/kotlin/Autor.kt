@@ -1,34 +1,27 @@
-import java.util.Date
+import java.util.*
 
-class Autor
-    (
-        nombre: String,
-        fechaNacimiento: Date,
-        private var numPublicaciones: Int, // Cuando le pongo private deja de ser un parametro y pasa a ser atributo pasa a ser una variable local
-        id: Int  = 0,
-    ): Persona(
+class Autor(
+    nombre: String,
+    fechaNacimiento: Date,
+    private val numPublicaciones: Int, // Cuando le pongo val es como si creará una variable local para mi autor
+    id: String? = null,
+): Persona(
         nombre,
         fechaNacimiento,
     ) {
-
-    // id estático
-    companion object {
-        var defaultId: Int = 0
-    }
-
-    init {
-        if (id == 0) {
-            defaultId++;
-        } else {
-            defaultId = id;
+        var uniqueID = UUID.randomUUID().toString().substring(0, 8);
+         init {
+            if (id != null) this.uniqueID = id;
         }
-    }
+
+        @JvmName("getUniqueID1")
+        fun getUniqueID(): String {
+            return this.uniqueID;
+        }
 
         override fun toString(): String {
-            return "id=$defaultId, Autor=${this.getNombre()}, fechaNacimiento=${this.getFechaNacimiento()}, numPublicaciones=$numPublicaciones"
+            return "idAutor=$uniqueID, Autor=${this.getNombre()}, fechaNacimiento=${this.getFechaNacimiento()}, numPublicaciones=$numPublicaciones"
         }
-
-
     }
 
 

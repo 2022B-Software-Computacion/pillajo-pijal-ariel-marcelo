@@ -1,6 +1,4 @@
-Autor=Jorge Bastidas, fechaNacimiento=Sun Dec 18 23:28:56 ECT 2022, numPublicaciones=10
-	 0 idLibro='5', titulo='''''Las Marianitas''''', fechaPublicacion=Sun Dec 18 23:28:56 ECT 2022, bestSeller=true, valor=3.5, numeroDeCopias=100
-	 1 idLibro='5', titulo='''''Las Marianitas''''', fechaPublicacion=Sun Dec 18 23:28:56 ECT 2022, bestSeller=true, valor=3.5, numeroDeCopias=100
-Autor=Jorge Bs, fechaNacimiento=Sun Dec 18 23:28:56 ECT 2022, numPublicaciones=10
-	 0 idLibro='5', titulo='''''Las Marianitas2''''', fechaPublicacion=Sun Dec 18 23:28:56 ECT 2022, bestSeller=true, valor=3.5, numeroDeCopias=100
+idAutor=bf8c75e8, Autor=Vicente, fechaNacimiento=Mon Dec 26 19:51:46 ECT 2022, numPublicaciones=10
+idAutor=75d7de97, Autor=Ricardo, fechaNacimiento=Mon Dec 26 19:56:46 ECT 2022, numPublicaciones=32
+	 idLibro=b4fd4023, titulo=Aventuras de juanito, fechaPublicacion=Fri Dec 24 18:41:55 ECT 2021, bestSeller=true, valor=12.34, numeroDeCopias=342
 

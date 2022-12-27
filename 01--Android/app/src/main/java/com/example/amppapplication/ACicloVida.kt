@@ -1,6 +1,7 @@
 package com.example.amppapplication
 
 import android.os.Bundle
+import android.os.PersistableBundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
@@ -39,6 +40,25 @@ class ACicloVida : AppCompatActivity() {
                 || super.onSupportNavigateUp()
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        outState.run {
+            // Guarda las variables
+            // PRIMITIVOS
+            putString("textoGuardado",textoGlobal)
+        }
+        super.onSaveInstanceState(outState)
+    }
+
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        val textoRecuperado: String? =  savedInstanceState.getString("textoGuardado")
+
+        if(textoRecuperado != null){
+            mostrarSnackbar(textoRecuperado)
+            textoGlobal = textoRecuperado;
+        }
+    }
     fun mostrarSnackbar(texto: String){
         textoGlobal += texto;
         Snackbar.make(findViewById(R.id.cl_ciclo_vida),
