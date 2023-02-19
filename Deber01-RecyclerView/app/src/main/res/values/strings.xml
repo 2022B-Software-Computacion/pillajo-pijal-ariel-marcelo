@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="start_app">Go to Tasker</string>
+    <string name="bottom_mn_home">Home</string>
+    <string name="bottom_mn_task">Task</string>
+    <string name="bottom_mn_profile">Profile</string>
+    <string name="bottom_mn_settings">Settings</string>
+</resources>

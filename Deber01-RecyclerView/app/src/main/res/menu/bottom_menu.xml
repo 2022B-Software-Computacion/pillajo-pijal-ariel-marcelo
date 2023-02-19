@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_home"
+        android:enabled="true"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/bottom_mn_home"/>
+    <item
+        android:id="@+id/fragment_task_list"
+        android:enabled="true"
+        android:icon="@drawable/baseline_task_24"
+        android:title="@string/bottom_mn_task"/>
+    <item
+        android:id="@+id/fragment_profile"
+        android:enabled="true"
+        android:icon="@drawable/baseline_account_circle_24"
+        android:title="@string/bottom_mn_profile"/>
+    <item
+        android:id="@+id/fragment_settings"
+        android:enabled="true"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/bottom_mn_settings" />
+</menu>

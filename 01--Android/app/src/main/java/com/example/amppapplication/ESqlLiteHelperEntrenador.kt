@@ -4,13 +4,14 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
-
+/*SQLiteOpenHelper es una clase auxiliar de Android que proporciona una interfaz simple
+para trabajar con una base de datos SQLite*/
 class ESqliteHelperEntrenador(
     contexto: Context?, // THIS
 ) : SQLiteOpenHelper(
     contexto,
     "moviles", // nombre BDD
-    null,
+    null, // utilizará la factoría predeterminada, que devuelve objetos Cursor que se adaptan a la implementación SQLite actual del sistema.
     1
 ) {
     override fun onCreate(db: SQLiteDatabase?) {

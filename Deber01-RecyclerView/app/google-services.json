@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "992285457964",
+    "project_id": "deber1-tasker",
+    "storage_bucket": "deber1-tasker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:992285457964:android:4655af28a088c8ea755b89",
+        "android_client_info": {
+          "package_name": "com.example.deber1_recyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "992285457964-vbh9ed8mas374sues53lmvkfrvkisf4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACI4OVho6oRRfECddddNawhx0vIuf45KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "992285457964-vbh9ed8mas374sues53lmvkfrvkisf4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

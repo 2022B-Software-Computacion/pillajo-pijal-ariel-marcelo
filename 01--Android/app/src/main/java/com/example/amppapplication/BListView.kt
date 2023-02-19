@@ -13,17 +13,20 @@ import android.widget.ListView
 import androidx.appcompat.app.AlertDialog
 
 class BListView : AppCompatActivity() {
-    val arreglo = BBaseDatosMemoria.arregloBEntrenador
-    var idItemSeleccionado = 0
+    val arreglo = BBaseDatosMemoria.arregloBEntrenador // Arreglo de objetos de tipo BEntrenador
+    var idItemSeleccionado = 0 // Variable para almacenar el id del item seleccionado
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_blist_view)
-        val listView = findViewById<ListView>(R.id.lv_list_view)
+        setContentView(R.layout.activity_blist_view) // Cargar la vista
+        val listView = findViewById<ListView>(R.id.lv_list_view) // Obtener la referencia al ListView
         val adaptador = ArrayAdapter(
             this, // Contexto
             android.R.layout.simple_list_item_1, // como se va a ver (XML)
             arreglo
         )
+        // proveo de un adaptador para que sepa como llenar la lista
         listView.adapter = adaptador
         adaptador.notifyDataSetChanged()
         val botonAnadirListView = findViewById<Button>(
