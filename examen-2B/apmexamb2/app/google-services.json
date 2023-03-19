@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325125356888",
+    "project_id": "apmexamb2",
+    "storage_bucket": "apmexamb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325125356888:android:27586f0e8d234d0947392d",
+        "android_client_info": {
+          "package_name": "com.example.apmexamb2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325125356888-apakirinu635tgb1a9nvkb9amvj1mmnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzD38Acm9zYBy2AUOK5rSxxj3aiJTXRjY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325125356888-apakirinu635tgb1a9nvkb9amvj1mmnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
